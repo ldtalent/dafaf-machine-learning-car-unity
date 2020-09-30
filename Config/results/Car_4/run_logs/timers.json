@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1601318540",
+        "python_version": "3.7.1 (default, Nov 24 2018, 22:14:32) [MSC v.1912 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\PF~4\\Python\\AN~3\\envs\\py37\\Scripts\\mlagents-learn Car.yaml --run-id=Car_4 --time-scale=20 --quality-level=0 --width=512 --height=256 --resume",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.4.0-dev20200906",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1601318607"
+    },
+    "total": 66.90831119999999,
+    "count": 1,
+    "self": 2.755403099999967,
+    "children": {
+        "run_training.setup": {
+            "total": 0.6321756000000036,
+            "count": 1,
+            "self": 0.6321756000000036
+        },
+        "TrainerController.start_learning": {
+            "total": 63.52073250000001,
+            "count": 1,
+            "self": 0.020291899999989482,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.40555500000001,
+                    "count": 1,
+                    "self": 63.40555500000001
+                },
+                "TrainerController._save_models": {
+                    "total": 0.094885600000012,
+                    "count": 1,
+                    "self": 3.480000000877226e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.09485080000000323,
+                            "count": 1,
+                            "self": 0.09485080000000323
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
